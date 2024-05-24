@@ -1,0 +1,60 @@
+/* reset.css */
+
+/* Eliminar margen y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer estilo base para los elementos HTML */
+html {
+    font-size: 100%;
+    line-height: 1.6;
+}
+
+/* Asegurar que los elementos de bloque llenen su contenedor */
+body {
+    margin: 0;
+
+}
+
+/* Enlace sin subrayado y color predeterminado */
+
+
+/* Quitar lista estilo de lista */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Quitar borde y fondo de botones e inputs */
+button,
+input,
+select,
+textarea {
+    background: none;
+    border: none;
+    font: inherit;
+   
+}
+
+/* Asegurar que las imágenes y los medios se ajusten al contenedor */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Asegurar que los encabezados tengan el mismo peso y tamaño de fuente */
+
+
+/* Establecer un color de fondo y de texto consistente */
+
+
+/* Establecer un ancho máximo para el contenedor */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}

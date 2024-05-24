@@ -1,0 +1,14 @@
+    body {
+        background-color: red
+        ;
+    }
+
+    .miTexto{
+        font-size: 20px;
+        color:black;
+    }
+
+
+    #primera-imagen{
+        width: 1100px;
+    }

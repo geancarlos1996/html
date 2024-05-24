@@ -1,0 +1,182 @@
+#contenidoHistoria{ 
+    
+    background-image: url(./famosos.png);
+    background-color:rgba(236, 241, 245, 0.918);
+    background-attachment:scroll;
+    background-size: 200%;
+  
+    
+}
+
+#headerHistoria{
+    display: flex;
+    flex-direction: column;
+}
+
+#tituloHistoria:hover{
+ 
+    color:rgb(0, 132, 255);
+}
+
+#tituloHistoria{
+    font-size: 40px;
+    background-color: #FAFCFF;
+    color: white;
+    text-shadow: -2px -3px 2px grey;
+    width: 50 vw;
+   
+
+
+}
+
+
+body{ background-image: url(./banderita.jpg);
+    background-color: rgb(255, 255, 255, 0.82);
+    background-attachment:scroll;
+    background-size: 300%;
+    background-position: center;
+    background-blend-mode:soft-light;}
+
+
+main{
+    width:70vw;
+    margin:auto;
+
+}
+
+
+
+
+#titulo:hover{
+ 
+    color:rgb(0, 132, 255);
+}
+
+#sub1:hover{
+    font-size: 25px;
+    color:rgb(0, 132, 255);
+}
+
+#sub2:hover{
+    font-size: 25px;
+    color:rgb(0, 132, 255);
+}
+
+
+
+#sub3:hover{
+    font-size: 25px;
+    color:rgb(0, 132, 255);
+
+}
+
+
+#sub4:hover{
+    font-size: 25;
+    color:rgb(0, 132, 255);
+
+}
+
+#titulo{
+   
+    padding: 10px 0 10px 0;
+    font-size: 40px;
+}
+    
+        
+
+
+#textoprincipal:hover{
+    border: 30px white  ;
+    overflow:auto;
+    color:black;
+    transition: 3s;
+    flex-direction: column;
+    
+}
+#textoprincipal{
+  color:transparent;
+    width: 75vw;
+    height: 20vw;
+    margin: auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   display:flex;
+
+
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px ;
+    padding: 4em 0em 0em 0em;
+}
+
+
+.menu  {
+
+    background-color: #FAFCFF;
+    color: white;
+    text-shadow: -2px -3px 2px grey;
+    width: 100vw;
+    margin:auto;
+    display: flex ;
+    padding: 0px 0px 0px 40px;
+    
+
+        
+}
+
+#sub{
+     
+    
+    width: 40vw;
+    margin:30px 50px 0 80px ;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+     
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+#tabla{
+
+    padding: 0 0 0 200px;
+    
+    
+}  
+
+table{
+    width:75%;
+    border-collapse:inherit;
+    background-image: url(colores.jpeg);
+    background-color: rgb(255, 255, 255, 0.6);
+    background-size: contain;
+    background-attachment: fixed;
+    background-blend-mode:overlay;
+   
+}
+
+
+th,td{
+    border: 1px solid ;
+    text-align: center;
+    font-size: 25px;
+}   
+
+tr:nth-child(even) {
+  
+    background-size:2000px 2000px;
+    background-position: -300px;
+    background-attachment: fixed;
+    
+}
